@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>ChmoDrop Help</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="robots" content="noindex">
+    <meta name="AppleTitle" content="jp.miyamura.ADBMusicTransfer.help">
+    <meta name="AppleIcon" content="../shrd/icon_16x16.png">
+    <meta name="color-scheme" content="light dark">
+    <link rel="stylesheet" href="../shrd/sty/index.css"/>
+</head>
+<body>
+
+    <h1><img src="../shrd/icon_128x128.png" alt="Paranoia2mp3 icon" width="128" height="128"><br>
+    ChmoDrop Help</h1>
+
+    <div class="section">
+        <h2>1. Purpose and Usage of the App</h2>
+        <p>
+            <strong>ChmoDrop</strong> is a utility that allows you to easily lock (read only)/unlock (writeable) folders by dragging and dropping them.
+        </p>
+        <ol type="a">
+            <li>Select "Lock (555)" or "Unlock (755)" by manipulating the checkbox. </li>
+            <li>Drop the folder into the window. </li>
+            <li>The folder icon will automatically change depending on the state. </li>
+        </ol>
+    </div>
+
+    <div class="section">
+        <h2>2. Icon meanings</h2>
+        <ul>
+            <li>🔒 Locked: Read-only</li>
+            <li>🔓 Unlocked: Writeable</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>3. Finder refresh button</h2>
+        <p>
+            If the folder icons are not displayed correctly, the Finder display may be cached. <br>
+            You can force a redraw by pressing the "Refresh Finder" button.
+        </p>
+    </div>
+
+    <div class="section">
+        <h2>4. Differences in access rights (555 and 755)</h2>
+        <ul>
+            <li><strong>755:</strong> The owner can read, write, and execute, other users can only read and execute</li>
+            <li><strong>555:</strong> All users can only read and execute (no writing allowed)</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>5. Frequently Asked Questions (FAQ)</h2>
+        <ul>
+            <li>
+                <strong>
+                    Q: Will this affect files?
+                </strong><br>
+                A: No, it will only change the permissions of the folder itself.
+            </li>
+            <li>
+                <strong>
+                    Q: Can I chmod recursively?
+                </strong><br>
+                A: Not supported in the current version.
+            </li>
+            <li>
+                <strong>
+                    Q: Can I write to a locked folder?
+                </strong><br>
+                A: Normally you can't (blocked by 555).
+            </li>
+        </ul>
+    </div>
+
+</body>
+</html>

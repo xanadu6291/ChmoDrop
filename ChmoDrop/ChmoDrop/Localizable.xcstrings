@@ -1,0 +1,121 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "Don't attach icon on unlock" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ロック解除時にアイコンを追加しない"
+          }
+        }
+      }
+    },
+    "Drop folder you wish to lock here" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Drop folder you wish to lock here."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ここにロックするフォルダをドロップしてください。"
+          }
+        }
+      }
+    },
+    "Drop folder you wish to unlock here" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Drop folder you wish to unlock here."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ここにロックを解除するフォルダをドロップしてください。"
+          }
+        }
+      }
+    },
+    "Failed to chmod" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Failed to chmod."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "chmod処理に失敗しました。"
+          }
+        }
+      }
+    },
+    "NewWindow" : {
+
+    },
+    "ProcessedFolderCountLockedFormat" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Locked %d folder(s)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%d 個のフォルダをロックしました。"
+          }
+        }
+      }
+    },
+    "ProcessedFolderCountUnlockedFormat" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unlocked %d folder(s)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%d 個のフォルダをロック解除しました。"
+          }
+        }
+      }
+    },
+    "Reload Finder" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Finderを更新"
+          }
+        }
+      }
+    },
+    "Unlock" : {
+      "comment" : "Localizable.strings\n  ChmoDrop\n\n  Created by 桃源老師 on 2025/07/12.",
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ロックを解除"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.1"
+}

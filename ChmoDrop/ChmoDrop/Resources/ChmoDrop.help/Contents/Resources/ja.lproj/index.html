@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>ChmoDrop ヘルプ</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="robots" content="noindex">
+    <meta name="AppleTitle" content="jp.miyamura.ADBMusicTransfer.help">
+    <meta name="AppleIcon" content="../shrd/icon_16x16.png">
+    <meta name="color-scheme" content="light dark">
+    <link rel="stylesheet" href="../shrd/sty/index.css"/>
+</head>
+<body>
+
+    <h1><img src="../shrd/icon_128x128.png" alt="ADBMusicTransfer icon" width="128" height="128"><br>
+    ChmoDrop ヘルプ</h1>
+
+    <div class="section">
+        <h2>1. アプリの目的と使い方</h2>
+        <p><strong>ChmoDrop</strong> は、フォルダをドラッグ＆ドロップで簡単にロック（読み取り専用）／ロック解除（書き込み可能）できるユーティリティです。</p>
+        <ol type="a">
+            <li>チェックボックスを操作して「ロック（555）」または「ロック解除（755）」を選びます。</li>
+            <li>フォルダをウインドウにドロップしてください。</li>
+            <li>状態に応じてフォルダアイコンも自動変更されます。</li>
+        </ol>
+    </div>
+
+    <div class="section">
+        <h2>2. アイコンの意味</h2>
+        <ul>
+            <li>🔒 ロック：読み取り専用</li>
+            <li>🔓 ロック解除：書き込み可能</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>3. Finderの更新ボタン</h2>
+        <p>
+            フォルダのアイコンが正しく表示されない場合、Finderの表示がキャッシュされている可能性があります。<br>
+            「Finderを更新」ボタンを押すことで再描画を促せます。
+        </p>
+    </div>
+
+    <div class="section">
+        <h2>4. アクセス権の違い（555と755）</h2>
+        <ul>
+            <li><strong>755:</strong> 所有者が読み書き実行でき、他ユーザーは読み・実行のみ</li>
+            <li><strong>555:</strong> すべてのユーザーが「読み取り・実行」のみ（書き込み禁止）</li>
+        </ul>
+    </div>
+    
+    <div class="section">
+        <h2>5. よくある質問（FAQ）</h2>
+        <ul>
+            <li>
+                <strong>
+                    Q: ファイルに影響はありますか？
+                </strong><br>
+                A: いいえ、フォルダ自体の権限のみ変更します。
+            </li>
+            <li>
+                <strong>
+                    Q: 再帰的にchmodできますか？
+                </strong><br>
+                A: 現バージョンでは非対応です。
+            </li>
+            <li>
+                <strong>
+                    Q: ロック中のフォルダに書き込める？
+                </strong><br>
+                A: 通常はできません（555によりブロック）。
+            </li>
+        </ul>
+    </div>
+
+</body>
+</html>
